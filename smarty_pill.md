@@ -3,6 +3,7 @@
 <img src="images/smarty_pill_sample_design.png?raw=true"/>
 
 **Goal:** Develop a prototype of an adaptive pill dispensing mechanism.
+
 **Back Story:**
 Our client to Generate Product Development with the idea to design a prototype of an automated pill dispenser. Our client had previously developed versions of an automated pill dispensers, however he encountered challenges with not being able to dispense pills of various sizes and shapes. Our deliverables for this product was to develop a pill dispensing mechanism that can adapt to all shapes and sizes of pills, develop a front end that allows user and caretaker registration, develop a backend (that holds user and caretaker data), develop a communication protocol between the backend server and a user device, prototype the user interface (UI) on a user device, develop a comprehensive firmware system, and develop a PCB for power management. Due to these deliverables, we were split into two teams, a hardware and software team. The hardware team was tasked with developing the mechanism, firmware, and power management, while the software team was tasked with developing the front end and back end, and the communication protocol. My role on the project involved protytping the UI, developing the firmware, and creating the power management PCB.
 
@@ -35,8 +36,7 @@ With this schematic we then generated the following routing for the PCB:
 <img src = "images/smarty_pill_pcb_routing.png?raw=true"/>
 Caption: The routing of the power management PCB.
 
-While we were able to design the PCB, due to time constraints with the PCB fabrication, we were not able to fully implement the PCB.
-However, we were able to protoboard the system. The following video shows the electrical systems functioning properly.
+While we were able to design the PCB, due to time constraints with the PCB fabrication, we were not able to fully implement the PCB. However, we were able to protoboard the system. The following video shows the electrical systems functioning properly.
 
 <video width="720" height="480" controls>
   <source src="images/smarty_pill_electrical_v.mov" type="video/mov">
