@@ -4,28 +4,66 @@
 
 ### Contents
 
-- [About Me](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Generate Product Development: SmartyPill Project](/smarty_pill)
+- [Optical Science Laboratory: Collagen Molecule Orientation](/collagen)
+- [Circuits and Signals Final Project](/circuits_final)
+- [Testing Cleaning Device Effectiveness](/cleaning_device)
+- [Rapid 3D Medical Imaging Reconstruction](/3d_image)
+- [MagicMirror: Personal Daily Ticker](/magicmirror)
+- [Embedded Design Final Project](/embedded_design)
+- [XCharge](/xcharge)
+- [FIRST Robotics: Final Year](/frc)
+- [Underwater Robotics: Underwater Robotics](/underwater_robotics)
+- [Project Title](/sample_page)
+
+
 
 ---
 
 ### Projects
 
-[Project 1 Title](/sample_page)
+[Generate Product Development: SmartyPill Project](/smarty_pill)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Optical Science Laboratory: Collagen Molecule Orientation](/collagen)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](/sample_page_1)
+[Circuits and Signals Final Project](/circuits_final)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
+---
+[Testing Cleaning Device Effectiveness](/cleaning_device)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
+---
+[Rapid 3D Medical Imaging Reconstruction](/3d_image)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+[MagicMirror: Personal Daily Ticker](/magicmirror)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+[Embedded Design Final Project](/embedded_design)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+[XCharge](/xcharge)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+[FIRST Robotics: Final Year](/frc)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+[Underwater Robotics: Underwater Robotics](/underwater_robotics)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+[Project Title](/sample_page)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
