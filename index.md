@@ -39,7 +39,7 @@
 
 ---
 [Rapid 3D Medical Imaging Reconstruction](/3d_image)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/3d_thumbnail.png?raw=true"/>
 
 ---
 [MagicMirror: Personal Daily Ticker](/magicmirror)
