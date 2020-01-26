@@ -1,8 +1,9 @@
 ## Generate Product Development: Smarty Pill
 
 <img src="images/smarty_pill_sample_design.png?raw=true"/>
+Caption: An example final implementation of the automatic pill dispenser.
 
-**Goal:** Develop a prototype of an adaptive pill dispensing mechanism.
+**Goal:** Develop a prototype of an automatic and adaptive pill dispensing mechanism.
 
 **Back Story:**
 Our client to Generate Product Development with the idea to design a prototype of an automated pill dispenser. Our client had previously developed versions of an automated pill dispensers, however he encountered challenges with not being able to dispense pills of various sizes and shapes. Our deliverables for this product was to develop a pill dispensing mechanism that can adapt to all shapes and sizes of pills, develop a front end that allows user and caretaker registration, develop a backend (that holds user and caretaker data), develop a communication protocol between the backend server and a user device, prototype the user interface (UI) on a user device, develop a comprehensive firmware system, and develop a PCB for power management. Due to these deliverables, we were split into two teams, a hardware and software team. The hardware team was tasked with developing the mechanism, firmware, and power management, while the software team was tasked with developing the front end and back end, and the communication protocol. My role on the project involved protytping the UI, developing the firmware, and creating the power management PCB.
