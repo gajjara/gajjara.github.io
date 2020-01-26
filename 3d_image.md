@@ -148,7 +148,7 @@ Caption: A view of the generated 3D volume.
 
 The following video shows the 3D volume being generated:
 <video controls>
-  <source src="images/3d_volume_v1.mov" type="video/mov">
+  <source src="images/3d_volume_v1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -157,7 +157,7 @@ Caption: A video of the 3D volume generation.
 And finally the video shows the viewing of the 3D volume:
 The following video shows the 3D volume being generated:
 <video controls>
-  <source src="images/3d_volume_v2.mov" type="video/mov">
+  <source src="images/3d_volume_v2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
