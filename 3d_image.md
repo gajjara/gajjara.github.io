@@ -28,11 +28,13 @@ The following image shows those following processes, with the following order:
 - Row 2 order: Image 4, Image 5, Image 6
 
 <img src="images/3d_test_edge_models.png?raw=true"/>
+
 Caption: A test of all six edge detection models outlined above. 
 
 The above processes were ran on this image:
 
 <img src="images/3d_test_orig.png?raw=true"/>
+
 Caption: The original image undergoing edge detection.
 
 The second image on the first row shows that undergoing noise reduction first then edge detection then sharpening provides the ideal edge detected image. This image also has the highest resolution and the highest amount of 'correct edges'.
@@ -40,6 +42,7 @@ The second image on the first row shows that undergoing noise reduction first th
 This is the image showing an image solely undergoing the Sobel edge detection model:
 
 <img src="images/3d_edge_only_sobel.png?raw=true"/>
+
 Caption: The original image undergoing edge detection solely through the Sobel operator.
 
 While this is the image showing the image undergoing the process of noise reduction, edge detection, and sharpening.
@@ -54,6 +57,7 @@ Thus the process of undergoing noise reduction, edge detection, and sharpening i
 I initally thought that running my edge detection model on sample medical images to generate a 3D model would run succesfully. However that was not the case. The 3D volume was generated using a maximum intensity projection with the MATLAB volshow() function.
 
 <img src = "images/3d_init_generation.png?raw=true"/>
+
 Caption: Initial 3D volume generation attempt. 
 
 As seen in the generated volume, no major details can be seen. This was due to the images not having enough information (edges are not enough for the volume generation).
@@ -63,6 +67,7 @@ As seen in the generated volume, no major details can be seen. This was due to t
 To counteract the issues above, the edge detected images were overlayed on the original image using a simple averaging of intensity values in the images. However, this averaging lowered the general intensity of the image which lowers the brightness and constrast of the image. The figure below shows the effect of this overlay and the lowered brightness and constrast.
 
 <img src="images/3d_edge_detected_overlay.png?raw=true"/>
+
 Caption: Edge detection (of the original image) overlayed on the original image using pixel-wise averaging. 
 
 To address the above problem a histogram equalization is conducted on the image. 
@@ -91,18 +96,23 @@ However after the adaptive equalization was conducted, it was found that the bri
 As shown by the images below, the adaptive normalization was able to increase the constrast of the overlayed image, while the renormalization value was able to increase the brightness of the overlayed image while mainting the increased constrast from the adaptive equalization.
 
 <img src="images/3d_process_1.png?raw=true"/>
+
 Caption: Original image.
 
 <img src="images/3d_process_2.png?raw=true"/>
+
 Caption: Edge detected image.
 
 <img src="images/3d_process_3.png?raw=true"/>
+
 Caption: Edge detected image overlayed on original image.
 
 <img src="images/3d_process_4.png?raw=true"/>
+
 Caption: Adaptively normalization of above image.
 
 <img src="images/3d_process_5.png?raw=true"/>
+
 Caption: Renormalized image (to 85% maximum image intensity) of above image.
 
 ### The 3D Volume Generation
@@ -113,9 +123,11 @@ Due to the process of the normalization on the images, the signal and noise comp
 The following image shows the thresholding on a slice of a Lung phantom image.
 
 <img src="images/3d_process_threshold_orig.png?raw=true"/>
+
 Caption: The original image.
 
 <img src="images/3d_process_threshold_final.png?raw=true"/>
+
 Caption: The thresholded image.
 
 After completing the processing algoirithm development. The following process was used to generate the 3D volume:
@@ -127,9 +139,11 @@ After completing the processing algoirithm development. The following process wa
 The following images shows the results of the volume generation:
 
 <img src="images/3d_volume_1.png?raw=true"/>
+
 Caption: A view of the generated 3D volume.
 
 <img src="images/3d_volume_2.png?raw=true"/>
+
 Caption: A view of the generated 3D volume.
 
 The following video shows the 3D volume being generated:
@@ -137,6 +151,7 @@ The following video shows the 3D volume being generated:
   <source src="images/3d_volume_v1.mov" type="video/mov">
   Your browser does not support the video tag.
 </video>
+
 Caption: A video of the 3D volume generation.
 
 And finally the video shows the viewing of the 3D volume:
@@ -145,6 +160,7 @@ The following video shows the 3D volume being generated:
   <source src="images/3d_volume_v2.mov" type="video/mov">
   Your browser does not support the video tag.
 </video>
+
 Caption: A video of the 3D volume generation.
 
 ### Conclusions, Future Improvements
