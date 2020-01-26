@@ -40,7 +40,7 @@ Caption: The routing of the power management PCB.
 While we were able to design the PCB, due to time constraints with the PCB fabrication, we were not able to fully implement the PCB. However, we were able to protoboard the system. The following video shows the electrical systems functioning properly.
 
 <video controls>
-  <source src="images/smarty_pill_electrical_v.mov" type="video/mov">
+  <source src="images/smarty_pill_electrical_v.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 Caption: A video showing the functionality of the power management design.
