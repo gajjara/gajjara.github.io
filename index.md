@@ -23,7 +23,7 @@
 ### Projects
 
 [Generate Product Development: SmartyPill Project](/smarty_pill)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/smarty_pill_sample_design.png?raw=true"/>
 
 ---
 [Optical Science Laboratory: Collagen Molecule Orientation](/collagen)
