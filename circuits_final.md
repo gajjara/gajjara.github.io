@@ -42,7 +42,7 @@ Caption: A screenshot showing the MATLAB code we wrote for digital filtering.
 ### The Result
 After analog filtering its clear that we were able to obtain a more coherent ECG signal, however, the analog filtering does show that further filtering is needed; which will be conducted digitally.
 
-<img src = "images/circuits_filtered_ecg.png?raw=true"/>
+<img src = "images/circuits_filtered_ecg,png.png"/>
 
 Caption: The ECG signal obtained after analog filtering.
 
