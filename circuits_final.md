@@ -42,13 +42,13 @@ Caption: The ECG signal obtained after analog filtering.
 
 With digital filtering, we were also able to obtain a clearer signal. As in the frequency domain (from a fourier transform) the digital low pass filter we implemented, we can see that high frequency noise is cutoff.
 
-<img src = images/circuits_digital_filt1.png?raw=true"/>
+<img src = "images/circuits_digital_filt1.png?raw=true"/>
 
 Caption: The ECG signal after being filtered through a low pass digital filter.
 
 With the digital notch filters we implemented, it is clera that we were able to obtain a smooth ECG signal in the time domain, ashown by the image below:
 
-<img src = images/circuits_digital_filt2.png?raw=true"/>
+<img src = "images/circuits_digital_filt2.png?raw=true"/>
 
 Caption: The ECG signal after being filtered through a set of notch filters to remove interference noise.
 
