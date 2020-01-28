@@ -16,7 +16,7 @@ Collagen is a biomolecule that is present in most tissues of mammals and is impo
 
 Caption: An atomic force microscopy (AFM) image of free flowing collagen monomers <a href="https://www.asmicro.com/Applications/Collagen_Monomers.htm"> (Source)</a>.
 
-<img src = "images/collagen_fibril_network.jpg?raw=true"/>
+<img src = "images/collgen_fibril_network.jpg?raw=true"/>
 
 Caption: A transmission electron microscopy micrograph of collagen fibrils <a href = "http://www2.optics.rochester.edu/workgroups/cml/opt307/spr06/xiaoxing/Xiaoxing.html"> (Source) </a>.
 
