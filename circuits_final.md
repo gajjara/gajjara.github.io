@@ -27,6 +27,12 @@ and a bandpass filter (that mitigated DC and high frequency noise). The image be
 
 Caption: The analog circuit we designed. 
 
+This image shows the above circuit implemented on a breadboard:
+
+<img src = "images/circuits_bb.png?raw=true"/>
+
+Caption: The above circuit diagram implemented on a breadboard.
+
 Digitally we utilized a low pass filter to further mitigate high frequency noise and a set of notch filters to remove interference noise at 60Hz and its harmonics. The digital filtering was conducted in MATLAB.
 
 <img src = "images/circuits_code.png?raw=true"/>
