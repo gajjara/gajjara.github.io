@@ -1,31 +1,59 @@
- ## This can be your internal website page / project page
+## Circuits and Signals Final Project
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Goal
+Develop a set of analog and digital filters to mitigate noise in an ECG signal and detect a heartbeat in an ECG signal.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### The Design
+As commonly known, an ECG signal can be used to measure a person's heartbeat. In an ECG signal there is the QRS complex, which represents the timing of contractions in the left and right sides of the heart <a href="https://en.wikipedia.org/wiki/QRS_complex/"> (Source)</a>. This QRS complex can be represented by a set of three peaks, as shown by the image below:
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+<img src = "images/circuits_ecg_ideal.png?raw=true"/>
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+Caption: An ideal ECG signal that demonstrates the QRS complex in an ECG.
 
-### 2. Assess assumptions on which statistical inference will be based
+From that ideal ECG signal, it can be seen that a set of five peaks should be measurable and visible. From measuring an unfiltered ECG signal (shown below) we can see that there is a clear need to conduct filtering and amplification on the ECG signal. There is a high amount of noise.
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+The image below shows an unfiltered ECG signal that we obtained:
 
-### 3. Support the selection of appropriate statistical tools and techniques
+<img src = "images/circuits_init_ecg.png?raw=true"/>
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Caption: An unfiltered ECG signal that we obtained.
 
-### 4. Provide a basis for further data collection through surveys or experiments
+Common types of noise, especially with the insturmentation involved with ECG signals, include DC noise (zero frequency noise), interference noise (60Hz and its harmonics), and high frequency noise (as is common in a lot of electronics). 
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+So my partner and I created an analog circuit that utilized an instrumentation amplifier (that applied an initial gain without increasing noise
+and a bandpass filter (that mitigated DC and high frequency noise). The image below shows the circuit diagram we designed:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<img src = "images/circuits_diagram.png?raw=true"/>
+
+Caption: The analog circuit we designed. 
+
+Digitally we utilized a low pass filter to further mitigate high frequency noise and a set of notch filters to remove interference noise at 60Hz and its harmonics. The digital filtering was conducted in MATLAB.
+
+<img src = "images/circuits_code.png?raw=true"/>
+
+Caption: A screenshot showing the MATLAB code we wrote for digital filtering.
+
+### The Result
+After analog filtering its clear that we were able to obtain a more coherent ECG signal, however, the analog filtering does show that further filtering is needed; which will be conducted digitally.
+
+<img src = "images/circuits_filtered_ecg.png?raw=true"/>
+
+Caption: The ECG signal obtained after analog filtering.
+
+With digital filtering, we were also able to obtain a clearer signal. As in the frequency domain (from a fourier transform) the digital low pass filter we implemented, we can see that high frequency noise is cutoff.
+
+<img src = images/circuits_digital_filt1.png?raw=true"/>
+
+Caption: The ECG signal after being filtered through a low pass digital filter.
+
+With the digital notch filters we implemented, it is clera that we were able to obtain a smooth ECG signal in the time domain, ashown by the image below:
+
+<img src = images/circuits_digital_filt2.png?raw=true"/>
+
+Caption: The ECG signal after being filtered through a set of notch filters to remove interference noise.
+
+After filtering, we were able to obtain a more coherent ECG signal, and we simply used a Fourier transform and identified the frequency with the highest intensity to identify the heartbeat.
+
+With the ECG signal above, we were able to detect a heartbeat of 111 beats per minute; which is consistent with the ECG signal as in the sample of 10 seconds there are 17 beats (thus 102 beats per minute). 
+
+Thus we were able to utilize analog and digital filtering techniques to detect a heartbeat from an ECG signal. 
