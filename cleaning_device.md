@@ -70,4 +70,4 @@ The following image shows the retainer cleaned by the cleaning device of the cap
 
 As seen in the image the group was clearly able to effectively clean the retainer, and in fact made the retainer more clean than when it was untouched.
 
-With the group, we took several samples of various images, and we were able to further prove the effectiveness of the group's cleaning device.
+With the group, we took several images of retainers, and we were able to further prove the effectiveness of the group's cleaning device.
