@@ -1,31 +1,73 @@
-## This can be your internal website page / project page
+## Testing Cleaning Device Effectiveness
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Goal** 
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+Utilize the phase-constrast imaging technique of Transport of Intensity (TOI) to determine the effectiveness of a student-devloped device for automatically cleaning dental retainers.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+**Context**
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+At Northeastern, students engage in a capstone project in their third, fourth, or fifth years, a mechanical engineering capstone group came to the Optical Science Laboratory, asking us to help them measure how effective their device was at automatically cleaning dental retainers. Along with my professor, we decided to use a phase-contrast imaging technique called Transport of Intensity (TOI). Since it is likely that a dirty retainer would reduce the relative intensity of an image, this technique can allow us to compare the relative intensities of an untouched retainer, dirty retainer, and cleaned retainer. The greater the relative intensity, the more 'clean' a retainer is. This allows us to quantify how well the capstone group cleans a retainer.
 
-### 2. Assess assumptions on which statistical inference will be based
+### The Technique
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+Transport of Intensity is a technique that essentially uses images at least three different focuses and determines the amplitude and phase from those images. The image below demontsrates that idea.
 
-### 3. Support the selection of appropriate statistical tools and techniques
+<img src = "images/cleaning_toi_idea.jpg?raw=true"/>
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Caption: An image demonstrating the technique of transport of intensity <a href = "https://www.osapublishing.org/oe/abstract.cfm?uri=oe-15-12-7165/"> (source) </a>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+To gather the phase from the images, the following equation (the transport of intensity) is used:
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+<img src = "images/cleaning_toi_eq.png?raw=true"/>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Using open source <a href="http://www.laurawaller.com/opensource/"> (MATLAB code)</a> from the Computational Imaging Lab at UC Berkeley as a basis for solving phase from the above equation, and <a href="https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-18-12-12552&id=199812/"> this research article</a>. From those two sources, I wrote the following MATLAB code:
+
+<img src = "images/cleaning_matlab_code_1.png?raw=true"/>
+
+<img src = "images/cleaning_matlab_code_2.png?raw=true"/>
+
+Caption: The MATLAB code written for unwrapping the phase using transport of intensity
+
+<img src = "images/cleaning_figure.png?raw=true"/>
+
+Caption: the basic setup of the TOI imaging we did
+
+For what we needed to do, I setup the following system, where a spherical light source was shined onto the retainer, through a blackout fixture that only allowed retainer light to pass, and a camera behind the retainer holder/blackout fixture. To get the three different focuses, I simply adjusted the camera focus at a length before, at, and behind the retainer.
+
+### The Results
+
+These images show three images of an untouched retainer:
+
+<img src = "images/cleaning_toi_1.jpg?raw=true"/>
+
+Caption: An image focused before the retainer
+
+<img src = "images/cleaning_toi_2.jpg?raw=true"/>
+
+Caption: A  image focused on the retainer
+
+<img src = "images/cleaning_toi_3.jpg?raw=true"/>
+
+Caption: An image focused after the retainer
+
+In order to better view the images, we decided to calculate the phase-amplitude that we recieve from the images. The images show the relative intensity of light recieved. The following images show the results for the same retainer, with the first image showing the retainer untouched, the retainer dirty, and the retainer cleaned by the group's cleaning device. The greater the intensity in the image the more 'clean' the retainer is.
+
+<img src = "images/cleaning_toi_phaseamplitude.png?raw=true"/>
+
+Caption: The phase-amplitude image of the untouched retainer, represented by __Amplitude*exp(i*phase)__
+
+The above image is an image for a retainer that is untouched.
+
+The image below is an image of a retainer stained by baby food
+
+<img src = "images/cleaning_toi_dirty.png?raw=true"/>
+
+Caption: A dirty retainer stained by baby food.
+
+The following image shows the retainer cleaned by the cleaning device of the capstone group:
+
+<img src = "images/cleaning_toi_cleanboi.png?raw=true"/>
+
+As seen in the image the group was clearly able to effectively clean the retainer, and in fact made the retainer more clean than when it was untouched.
+
+With the group, we took several samples of various images, and we were able to further prove the effectiveness of the group's cleaning device.
