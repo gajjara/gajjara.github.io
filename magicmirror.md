@@ -1,31 +1,27 @@
-## This can be your internal website page / project page
+## MagicMirror: My Basic Personal Assistant 
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Back Story:** 
+On GitHub I found a repository called <a href="https://github.com/MichMich/MagicMirror/"> MagicMirror</a>, which is a "open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant." For a rather simple project, I thought I could modify some of the source code to show my daily schedule, the weather, and the news.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### The Result
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+After adjusting some of the javascript and CSS files in my copy of the MagicMirror repository, I was succesfully able to launch my version of the repository.
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+I added and adjusted modules to show the current time, my calendar, the current weather, the weather forcast, the current music I'm playing, and the news.
 
-### 2. Assess assumptions on which statistical inference will be based
+I also installed my version of the repository on a Raspberry Pi.
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+<img src = "images/magicmirror_rpi_setup.jpeg?raw=true"/>
+Caption: The shell script to run the MagicMirror on a Raspberry Pi.
 
-### 3. Support the selection of appropriate statistical tools and techniques
+<video controls>
+  <source src="images/magic_mirror.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+Caption: A screen recording of my implementation of the MagicMirror.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<video controls>
+  <source src="images/magic_mirror_rpi.mp4" type="video/mp4">
+  Note: need to insert this video.
+</viedo>
+Caption: Video of the MagicMirror working on a RPI.
