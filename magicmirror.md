@@ -15,7 +15,7 @@ I also installed my version of the repository on a Raspberry Pi.
 Caption: The shell script to run the MagicMirror on a Raspberry Pi.
 
 <video controls>
-  <source src="images/magic_mirror.mp4" type="video/mp4">
+  <source src="images/magicmirror.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 Caption: A screen recording of my implementation of the MagicMirror.
