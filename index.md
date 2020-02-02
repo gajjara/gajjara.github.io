@@ -12,8 +12,7 @@
 - [MagicMirror: Personal Daily Ticker](/magicmirror)
 - [Embedded Design Final Project](/embedded_design)
 - [XCharge](/xcharge)
-- [FIRST Robotics: Final Year](/frc)
-- [Underwater Robotics: Underwater Robotics](/underwater_robotics)
+- [FIRST and Underwater Robotics: Final Year](/robotics)
 - [Project Title](/sample_page)
 
 
@@ -55,11 +54,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[FIRST Robotics: Final Year](/frc)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Underwater Robotics: Underwater Robotics](/underwater_robotics)
+[FIRST Robotics and Underwater Robotics: Final Year](/robotics)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
