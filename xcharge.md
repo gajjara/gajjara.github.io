@@ -113,6 +113,9 @@ Caption: Photo demonstrating our build
 <img src = "images/xcharge_build_2.png?raw=true"/>
 Caption: Photo demonstrating our build
 
+<img src = "images/xcharge_build_3.png?raw=true"/>
+Caption: Photo demonstrating our build
+
 **Delay Data Collection**
 One of the potential issues that we found with the additional of piezoelectrics, peltier tiles, and circuitry is that the button, trigger, and joystick events could be delayed. Using the same data collection process as above, but instead manually comparing the timings between the "on" and "off" events of button, trigger, and joystick events, we found the following results for delay:
 
