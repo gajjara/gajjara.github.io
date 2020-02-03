@@ -1,5 +1,9 @@
 ## Testing Cleaning Device Effectiveness
 
+<img src = "images/cleaning_toi_cleanboi.png?raw=true"/>
+
+Caption: An image generated from the technique my professor and I devised.
+
 **Goal:** Utilize the phase-contrast imaging technique of Transport of Intensity (TOI) to determine the effectiveness of a student-developed device for automatically cleaning dental retainers.
 
 **Context:** At Northeastern, students engage in a capstone project in their third, fourth, or fifth years, a mechanical engineering capstone group came to the Optical Science Laboratory, asking us to help them measure how effective their device was at automatically cleaning dental retainers. Along with my professor, we decided to use a phase-contrast imaging technique called Transport of Intensity (TOI). Since it is likely that a dirty retainer would reduce the relative intensity of an image, this technique can allow us to compare the relative intensities of an untouched retainer, dirty retainer, and cleaned retainer. The greater the relative intensity, the more 'clean' a retainer is. This allows us to quantify how well the capstone group cleans a retainer.
@@ -18,7 +22,7 @@ To gather the phase from the images, the following equation (the transport of in
 
 <img src = "images/cleaning_toi_eq.png?raw=true"/>
 
-Using open source <a href="http://www.laurawaller.com/opensource/"> (MATLAB code)</a> from the Computational Imaging Lab at UC Berkeley as a basis for unwrapping phase from the above equation, and <a href="https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-18-12-12552&id=199812/"> this research article</a>. From those two sources, I wrote the following MATLAB code:
+Using open source <a href="http://www.laurawaller.com/opensource/"> MATLAB code</a> from the Computational Imaging Lab at UC Berkeley as a basis for unwrapping phase from the above equation, and <a href="https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-18-12-12552&id=199812/"> this research article</a>. From those two sources, I wrote the following MATLAB code:
 
 <img src = "images/cleaning_matlab_code_1.png?raw=true"/>
 
@@ -26,7 +30,7 @@ Using open source <a href="http://www.laurawaller.com/opensource/"> (MATLAB code
 
 Caption: The MATLAB code written for unwrapping the phase using transport of intensity.
 
-The MATLAB code can also be found on my <a href = "https://github.com/gajjara/CapstoneGroupCode/" >github</a>.
+The MATLAB code can also be found on my <a href = "https://github.com/gajjara/CapstoneGroupCode/" >Github</a>.
 
 <img src = "images/cleaning_figure.png?raw=true"/>
 
@@ -58,7 +62,7 @@ Caption: The phase-amplitude image of the untouched retainer.
 
 The above image is an image for a retainer that is untouched.
 
-The image below is an image of a retainer stained by baby food
+The image below is an image of a retainer stained by baby food.
 
 <img src = "images/cleaning_toi_dirty.png?raw=true"/>
 
@@ -67,6 +71,8 @@ Caption: A dirty retainer stained by baby food.
 The following image shows the retainer cleaned by the cleaning device of the capstone group:
 
 <img src = "images/cleaning_toi_cleanboi.png?raw=true"/>
+
+Caption: The retainer cleaned from the cleaning device.
 
 As seen in the image the group was clearly able to effectively clean the retainer, and in fact made the retainer more clean than when it was untouched.
 
