@@ -1,6 +1,6 @@
 ## FIRST and Underwater Robotics: Final Year
 
-<img src = "images/robotics_header.png?raw=true"/>
+<img src = "images/robotics_header.jpg?raw=true"/>
 
 Caption: The underwater ROV designed.
 
