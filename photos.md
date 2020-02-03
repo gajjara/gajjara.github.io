@@ -50,6 +50,10 @@ Caption: Bustling group of tourists in a cathedral in Prague, Czech Republic.
 
 Caption: An overlooking view of Prague (Czech Republic).
 
+<img src="images/Image16.jpg?raw=true"/>
+
+Caption: A market in Baroda, India in full swing.
+
 <img src="images/Image12.jpg?raw=true"/>
 
 Caption: Also an overlooking view, but of Santiago (Chile) from the also famous Cerro San Cristobal.
