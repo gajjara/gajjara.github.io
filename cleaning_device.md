@@ -54,7 +54,7 @@ In order to better view the images, we decided to calculate the phase-amplitude 
 
 <img src = "images/cleaning_toi_phaseamplitude.png?raw=true"/>
 
-Caption: The phase-amplitude image of the untouched retainer, represented by __Amplitude*exp(i*phase)__.
+Caption: The phase-amplitude image of the untouched retainer.
 
 The above image is an image for a retainer that is untouched.
 
