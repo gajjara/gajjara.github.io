@@ -17,7 +17,6 @@
 
 ### Projects
 
-___
 [Rapid 3D Medical Imaging Reconstruction](/3d_image)
 <img src="images/3d_thumbnail.png?raw=true"/>
 
