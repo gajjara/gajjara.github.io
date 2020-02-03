@@ -7,12 +7,12 @@ Here I display some of what I consider my best photos from the states, Europe, I
 
 <img src="images/Image1.jpg?raw=true"/>
 
-Caption: Graffiti all over street walls one of the many hills in Valparaiso, Chile.
+Caption: Graffiti all over street walls on one of the many hills in Valparaiso, Chile.
 
 <img src="images/Image2.jpg?raw=true"/>
 
 Caption: Image I took from my phone of Micheal League, lead composer of Snarky Puppy, 
-during one of their concerts in Boston.
+during a concert in Boston.
 
 <img src="images/Image3.jpg?raw=true"/>
 
