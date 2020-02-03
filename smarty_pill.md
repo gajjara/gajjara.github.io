@@ -1,6 +1,7 @@
 ## Generate Product Development: Smarty Pill
 
 <img src="images/smarty_pill_sample_design.png?raw=true"/>
+
 Caption: An example final implementation of the automatic pill dispenser.
 
 
@@ -19,6 +20,7 @@ Credit goes to the <a href="https://web.archive.org/web/20191130065915/https://w
 The automated pill dispenser we were designing included a Raspberry Pi (for systems control), with stackable motor hats (for motor control of servos and steppers on the system), a touchscreen display, an LED and speaker (for feedback), a sensor system (for sensing the dispensing of pills), and an analog-digital converter (ADC). Due to the presence of all these systems, it was necessary that we build a PCB for centralized power management and cable organization.
 
 <img src = "images/smarty_pill_block_diagram.png?raw=true"/>
+
 Caption: Block diagram of the system.
 
 Due to the prescense of all these systems we built a PCB with the following considerations: 
@@ -34,11 +36,13 @@ Note that we decided to buy external electronic equipment for converting AC volt
 With these considerations we came up with the following circuit design: 
 
 <img src = "images/smarty_pill_schematic.png?raw=true"/>
+
 Caption: Schematic of the Power Management PCB we designed.
 
 With this schematic we then generated the following design and routing for the PCB: 
 
 <img src = "images/smarty_pill_pcb_routing.png?raw=true"/>
+
 Caption: The routing of the power management PCB.
 
 While we were able to design the PCB, due to time constraints with the PCB fabrication, we were not able to fully implement the PCB. However, we were able to protoboard the system. The following video shows the electrical systems functioning.
@@ -47,11 +51,13 @@ While we were able to design the PCB, due to time constraints with the PCB fabri
   <source src="images/smarty_pill_electrical_v.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 Caption: A video showing the functionality of the power management design.
 
 After the project came to an end, the PCBs were fabricated.
 
 <img src = "images/smarty_pill_pcbs.JPG?raw=true"/>
+
 Caption: The fabricated PCB.
 
 Credit goes to the computer and electrical engineers on the Fall 2019 SmartyPill team.
@@ -63,22 +69,26 @@ As mentioned above, due to the presence of several systems, we wanted to central
 Before writing any code we defined the following structure for the firmware:
 
 <img src = "images/smarty_pill_firmware_structure.png?raw=true"/>
+
 Caption: The initial firmware structure we defined for the firmware.
 
 Due to the ease of use we decided to write the firmware in Python.
 Thus the following structure we defined earlier ended up looking this in Python:
 
 <img src = "images/smarty_pill_firmware_structure_code.png?raw=true"/>
+
 Caption: The structure of the firmware in Python.
 
 The following image shows an example of a class we implemented in Python:
 
 <img src = "images/smarty_pill_firmware_code_sc.png?raw=true"/>
+
 Caption: An example of a class we implemented.
 
 Once we finalized the firmware library, documentation was of paramount importance, the following image shows the README file we defined for the firmware library.
 
 <img src = "images/smarty_pill_firmware_readme.png?raw=true"/>
+
 Caption: The README file we wrote for the firmware libary.
 
 Credit goes to the computer and electrical engineers on the Fall 2019 SmartyPill team.
