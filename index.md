@@ -12,6 +12,7 @@
 - [Testing Cleaning Device Effectiveness](/cleaning_device)
 - [XCharge: Self-Charging Game Controller](/xcharge)
 - [FIRST and Underwater Robotics: Final Year](/robotics)
+- [Informal Photography Portfolio](/photos)
 
 ---
 
@@ -49,5 +50,10 @@
 <img src="images/robotics_header.jpg?raw=true"/>
 
 ---
+[Informal Photography Portfolio](/photos)
+<img src="images/Image9.jpg?raw=true"/>
+
+---
+
 <p style="font-size:10px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
