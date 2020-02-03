@@ -49,7 +49,7 @@ Caption: The simulation for a 180 degrees PWM pulse, an "on" period of 1200*10^-
 
 Since the simulations correctly verified the design, the next step was to design the cirucit for speed control. 
 
-<img src = "images/embedded_logic_pwm_speed.png?raw=true"/>
+<img src = "/images/embedded_speed_control.png?raw=true"/>
 
 Caption: The logic circuit design for servo speed control.
 
