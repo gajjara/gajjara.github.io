@@ -82,7 +82,7 @@ Credit goes to the computer and electrical engineers on the Fall 2019 SmartyPill
 
 <div style="display:none;"> ### User Interface Prototype 
 
-Note to self: decide to show later. <img src="images/dummy_thumbnail.jpg?raw=true"/> </div>
+Note to self: decide to show later. </div>
 
 ### Reflections
 
