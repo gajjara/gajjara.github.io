@@ -1,5 +1,9 @@
 ## FIRST and Underwater Robotics: Final Year
 
+<img src = "images/robotics_header.png?raw=true"/>
+
+Caption: The underwater ROV designed.
+
 **Context:**
 In my final year of High School, I became the co-team lead of both my high school's FIRST Robotics Team (Team 97) and my high school's underwater robotics team.
 
@@ -32,7 +36,9 @@ The following images show an example of the work I did:
 
 <img src = "images/robotics_first_ex_6.png?raw=true"/>
 
-For FIRST 2018, the competition was FIRST PowerUp, which involved tipping a scale or the a switch in their favor to earn points, exchanging power cubes (milk crate sized cubes) into various ports, and climbing a scale tower. After weighing the scoring for tipping the scale/switch, exchanging power cubes, and climbing, we decided to design our robot for the exchanging of power cubes.
+Caption: Examples of the work I did as the co-team lead.
+
+For FIRST 2018, the competition was FIRST PowerUp, which involved tipping a scale or the switch in their favor to earn points, exchanging power cubes (milk crate sized cubes) into various ports, and climbing a scale tower. After weighing the scoring for tipping the scale/switch, exchanging power cubes, and climbing, we decided to design our robot for the exchanging of power cubes.
 
 This involved two main mechanisms to be created: a shooting and gathering mechanism.
 
@@ -56,7 +62,7 @@ Again, all credit goes to the 2018 FIRST Team 97.
 ### Underwater Robotics
 As mentioned above, my team-lead role for underwater robotics involved handling the technical design of our robot.
 
-My underwater robotics team is involved in the Marine Advanced Technology Education Remotely Operated Vehicles New England Ranger Competition or MATE ROV NE Ranger Competition. The overall compeittion theme is to perform a wide variety of tasks in a specific environment. For the 2018 competition, the challenge was to locate the wreckage of an aircraft, identify the aircraft and retrieve its components, release and install scientific equipment to collect seismic data, locating the optimum region for tidal turbines, installing tidal turbines and related equipment, and monitoring and restoring marine habitats in the Pacific Northwest enviornment [CITE: TECHINCAL REPORT]. Note that since we were a high school this environment was simulated in a pool.
+My underwater robotics team is involved in the Marine Advanced Technology Education Remotely Operated Vehicles New England Ranger Competition or MATE ROV NE Ranger Competition. The overall competition theme is to perform a wide variety of tasks in a specific environment. For the 2018 competition, the challenge was to locate the wreckage of an aircraft, identify the aircraft and retrieve its components, release and install scientific equipment to collect seismic data, locating the optimum region for tidal turbines, installing tidal turbines and related equipment, and monitoring and restoring marine habitats in the Pacific Northwest environment <a href="https://www.marinetech.org/files/marine/files/ROV%20Competition/2018%20competition/Missions/Updated%20manuals/2018%20RANGER%20Manual%20v9_6_3_14_2018_cover.pdf">(source)</a>. Note that since we were a high school this environment was simulated in a pool.
 
 With these tasks, we decided to build an ROV with a single arm that can adaptively handle all the tasks above. 
 
@@ -71,23 +77,27 @@ This involved the following design elements:
 - Effective yet simple safety features
 
 **The Frame**
-As commonly used for underwater ROV prototyping, a PVC frame is commonly used, as they are light, inexpensive, and maleable (to a certain extent). We built the frame inan octagan as this allows us to have several vertices to build off of, and is more hydrodynamic than other prism shapes. We placed 6 vertical pipes to connect the top and bototm frame to make the frame more robust, anda llows us to attach our thrusters through contact points on the side of the robot. Overall, our frame sufficuently allowed the support of the thrusters, arm, and cameras.
+As commonly used for underwater ROV prototyping, a PVC frame is commonly used, as they are light, inexpensive, and malleable (to a certain extent). We built the frame in an octagan as this allows us to have several vertices to build off of, and is more hydrodynamic than other prism shapes. We placed 6 vertical pipes to connect the top and bottom frame to make the frame more robust, and allows us to attach our thrusters through contact points on the side of the robot. Overall, our frame sufficiently allowed the support of the thrusters, arm, and cameras.
 
 <img src = "images/robotics_rov_frame.png?raw=true"/>
-Caption: The ROV frame we designed
+
+Caption: The ROV frame we designed.
 
 **Cameras**
 For the competition our team decided to utilize three cameras, using purchased cameras, we simply waterproofed them by encasing them in a PVC pipe and attaching marine grade silicone within the PVC pipe. These cameras output were directly fed into color LCD displays, and can be hooked up to a laptop to utilize digital measurement software.
 
 <img src = "images/robotics_rov_camera.png?raw=true"/>
-Caption: A waterproofed ROV camera
+
+Caption: A waterproofed ROV camera.
 
 **Propulsion**
-We decided to propell our ROV with four Blue Robotics T100 thrusters. We decided to use these thrusters as these thrusters cores are sealed with marine-grade epoxy, and are tested up to 250V operation (way above our operating voltage of 12V). The thrusters also have a built in cowling whcih prevents wires or other hazards being entangled in the blades. Thus this thruster is unlikely to fail during operation.
+We decided to propel our ROV with four Blue Robotics T100 thrusters. We decided to use these thrusters as these thrusters’ cores are sealed with marine-grade epoxy, and are tested up to 250V operation (way above our operating voltage of 12V). The thrusters also have a built-in cowling which prevents wires or other hazards being entangled in the blades. Thus the thruster is unlikely to fail during operation.
 
 Two thrusters were mounted on the side columns of the ROV to control surge and yaw, while two thrusters were mounted on the top of the ROV to allow vertical movement. These thrusters provided five pounds of thrust, allowing relatively quick propulsion of the ROV under water.
 
 <img src = "images/robotics_rov_thruster.png?raw=true"/>
+
+Caption: A Blue Robotics T100 thruster.
 
 **Robotic Arm**
 Our arm was designed with two high torque motors in which one was for wrist rotation, and the other was for opening and closing the gripper. We decided to not implement any vertical rotation, as we could simply vertically rotate the bot using the thrusters we installed.
@@ -97,23 +107,26 @@ To open and close the gripper, we simply used a steel wire (to prevent snapping 
 Since we were utilizing DC motors, we simply decided to use a switch system for the control of the gripper arm and wrist rotation.
 
 <img src = "images/robotics_rov_arm.png?raw=true"/>
-Caption: The ROV tether
+
+Caption: The ROV arm.
 
 **Tether**
-We decided to build the tether with a wrap-around plastic sheating, while adding foam woven in the plastic sheating to allow the tether to have some positve buoyancy. THis poistive buoyancy does not obstruct the ROV's buoyancy (some effect on buoyancy, but this can be offset) or movement, since the tether floats above the nuetrally buoyant ROV. Every electrical connection within the tether was covered with heat-shrink coated in epoxy in order to prevent any safety hazards or water damange. 
+We decided to build the tether with a wrap-around plastic sheathing, while adding foam woven in the plastic sheathing to allow the tether to have some positive buoyancy. This positive buoyancy does not obstruct the ROV's buoyancy (some effect on buoyancy, but this can be offset) or movement, since the tether floats above the neutrally buoyant ROV. Every electrical connection within the tether was covered with heat-shrink coated in epoxy in order to prevent any safety hazards or water damage.
 
 <img src = "images/robotics_rov_tether.png?raw=true"/>
-Caption: The ROV tether
+
+Caption: The ROV tether.
 
 **Buoyancy**
-Our buoynacy system was relatively simple, as we simply decided to use cutouts of diving board foam. We simply cut down the diving board foam until our ROV was nuetrally buoyant in water.
+Our buoyancy system was relatively simple, as we simply decided to use cutouts of diving board foam. We simply cut down the diving board foam until our ROV was neutrally buoyant in water.
 
-We made sure to use a relatvily large surface area of the diving board to ensure that any added loads that are attached to the ROV load does not signafigantly affect the buoyancy of the ROV.
+We made sure to use a relatively large surface area of the diving board to ensure that any added loads that are attached to the ROV load does not significantly affect the buoyancy of the ROV.
 
 This was also a simple low-cost solution for buoyancy on the ROV.
 
 <img src = "images/robotics_rov_buy.png?raw=true"/>
-Caption: The foam board attached to the ROV
+
+Caption: The foam board attached to the ROV.
 
 **Control System**
 Our control system was a relatively simple system, in which we simply choose to use a Raspberry Pi running Python to read and process joystick inputs, an Arduino Uno utilizing Blue Robotics electronic speed controllers (ESCs) (for thruster control). 
@@ -123,12 +136,15 @@ We simply used the PyGame library to read inputs from a joystick that is connect
 This is the following flowchart for the control system:
 
 <img src = "images/robotics_rov_flow.png?raw=true"/>
-Caption: The flowchart for the control system
+
+Caption: The flowchart for the control system.
 
 **Other**
 This is the following systems interconnection diagram for the overall system:
 
 <img src = "images/robotics_rop_sid.png?raw=true"/>
+
+Caption: The systems interconnection diagram.
 
 **Safety**
 For safety we decided to use the following safety procedures for the operation of the ROV:
@@ -146,13 +162,8 @@ For safety we decided to use the following safety procedures for the operation o
 - Ensure that the electronics are on and running
 - Check to make sure everyone is clear of the tether as the ROV is put in the water
 
-**Robot Operation**
-The following video demonstrates our robot functioning in a pool test:
+**Competition**
+In the competition we did not place as the top team (in the New England competition we had to place first to advance to the worldwide MATE competition), however the judges recognzied our team's communication and design when we were in the pool.
 
-<video controls>
-  <source src="images/robotics_rov_op.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-[INSERT VIDEO]
-
-Again, all credit goes to the 2018 CRLS Underwater Robotics team.
+### Reflections
+From both of my experiences on the teams I was able to obtain an extremely useful leadership experience from an administrative and technical perspective. I am forever thankful to my faculty advisors Conrad Huack and Paul McGuinness for supporting me for 4 years on both robotics teams. Credit also goes to my teammates on both teams for all four years.
