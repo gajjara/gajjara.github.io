@@ -6,6 +6,8 @@ Currently a lot of 3-D medical imaging reconstruction takes a lot of computation
 **Summary:**
 I devised an image processing algorithm utilizing edge detection, median filtering, unsharp masking, and histogram normalization that preprocessed the images for 3D image construction. The 3D image reconstruction was conducted using the volshow() function in MATLAB utilizing a maximum intensity projection. Using a sample lung CT phantom, I tested my processing. Although there are several improvements that are needed to be made, this project demonstrated that rapid 3D medical imaging is possible.
 
+The code written for this project is on my <a href = "https://github.com/gajjara/ImageProcessing/">github</a>.
+
 ### Developing The Edge Detection Process
 
 The fundamental step for this approach of 3D image reconstruction, is to run a medical image through an edge detection algorithm. However, it is not ideal to solely use edge detection on a medical image; as an image will contain noise and edges that are not "easy" to detect. The goal here is to both increase the true positive rate while decrease the false positive rate for an edge. Therefore both a low pass filter (noise reduction) and a high pass filter (sharpening) is ran on the image along with a edge detection algorithm.
