@@ -166,4 +166,4 @@ For safety we decided to use the following safety procedures for the operation o
 In the competition we did not place as the top team (in the New England competition we had to place first to advance to the worldwide MATE competition), however the judges recognzied our team's communication and design when we were in the pool.
 
 ### Reflections
-From both of my experiences on the teams I was able to obtain an extremely useful leadership experience from an administrative and technical perspective. I am forever thankful to my faculty advisors Conrad Huack and Paul McGuinness for supporting me for 4 years on both robotics teams. Credit also goes to my teammates on both teams for all four years.
+From both of my experiences on the teams I was able to obtain an extremely useful leadership experience from both an administrative and technical perspective. Thank you to all my teamates for their support and to my faculty advisors Conrad Huack and Paul McGuinness for mentoring me for 4 years on both robotics teams. 
