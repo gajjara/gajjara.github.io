@@ -45,9 +45,11 @@ This involved two main mechanisms to be created: a shooting and gathering mechan
 The following video shows our development throughout the FIRST 2018 season.
 
 <video controls>
-  <source src="images/robotics_first_all.mp4" type="video/mp4">
+  <source src="/images/robotics_first_all.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+Caption: A video showing our development throughout the FIRST 2018 season.
 
 With the design we all created, we won the Judges award for one of the New England FIRST 2018 competitons.
 
@@ -77,20 +79,23 @@ This involved the following design elements:
 - Effective yet simple safety features
 
 **The Frame**
+
 As commonly used for underwater ROV prototyping, a PVC frame is commonly used, as they are light, inexpensive, and malleable (to a certain extent). We built the frame in an octagan as this allows us to have several vertices to build off of, and is more hydrodynamic than other prism shapes. We placed 6 vertical pipes to connect the top and bottom frame to make the frame more robust, and allows us to attach our thrusters through contact points on the side of the robot. Overall, our frame sufficiently allowed the support of the thrusters, arm, and cameras.
 
-<img src = "images/robotics_rov_frame.png?raw=true"/>
+<img src = "images/robotics_rov_frame.jpg?raw=true"/>
 
 Caption: The ROV frame we designed.
 
 **Cameras**
+
 For the competition our team decided to utilize three cameras, using purchased cameras, we simply waterproofed them by encasing them in a PVC pipe and attaching marine grade silicone within the PVC pipe. These cameras output were directly fed into color LCD displays, and can be hooked up to a laptop to utilize digital measurement software.
 
-<img src = "images/robotics_rov_camera.png?raw=true"/>
+<img src = "images/robotics_rov_camera.jpg?raw=true"/>
 
 Caption: A waterproofed ROV camera.
 
 **Propulsion**
+
 We decided to propel our ROV with four Blue Robotics T100 thrusters. We decided to use these thrusters as these thrusters’ cores are sealed with marine-grade epoxy, and are tested up to 250V operation (way above our operating voltage of 12V). The thrusters also have a built-in cowling which prevents wires or other hazards being entangled in the blades. Thus the thruster is unlikely to fail during operation.
 
 Two thrusters were mounted on the side columns of the ROV to control surge and yaw, while two thrusters were mounted on the top of the ROV to allow vertical movement. These thrusters provided five pounds of thrust, allowing relatively quick propulsion of the ROV under water.
@@ -100,6 +105,7 @@ Two thrusters were mounted on the side columns of the ROV to control surge and y
 Caption: A Blue Robotics T100 thruster.
 
 **Robotic Arm**
+
 Our arm was designed with two high torque motors in which one was for wrist rotation, and the other was for opening and closing the gripper. We decided to not implement any vertical rotation, as we could simply vertically rotate the bot using the thrusters we installed.
 
 To open and close the gripper, we simply used a steel wire (to prevent snapping of the wire) attached on one end to a motor gear, while on the other end it was attached to the internal wire system of a trash gripper, while the wrist was rotated using a simple belt system.
@@ -111,6 +117,7 @@ Since we were utilizing DC motors, we simply decided to use a switch system for 
 Caption: The ROV arm.
 
 **Tether**
+
 We decided to build the tether with a wrap-around plastic sheathing, while adding foam woven in the plastic sheathing to allow the tether to have some positive buoyancy. This positive buoyancy does not obstruct the ROV's buoyancy (some effect on buoyancy, but this can be offset) or movement, since the tether floats above the neutrally buoyant ROV. Every electrical connection within the tether was covered with heat-shrink coated in epoxy in order to prevent any safety hazards or water damage.
 
 <img src = "images/robotics_rov_tether.png?raw=true"/>
@@ -118,6 +125,7 @@ We decided to build the tether with a wrap-around plastic sheathing, while addin
 Caption: The ROV tether.
 
 **Buoyancy**
+
 Our buoyancy system was relatively simple, as we simply decided to use cutouts of diving board foam. We simply cut down the diving board foam until our ROV was neutrally buoyant in water.
 
 We made sure to use a relatively large surface area of the diving board to ensure that any added loads that are attached to the ROV load does not significantly affect the buoyancy of the ROV.
@@ -129,6 +137,7 @@ This was also a simple low-cost solution for buoyancy on the ROV.
 Caption: The foam board attached to the ROV.
 
 **Control System**
+
 Our control system was a relatively simple system, in which we simply choose to use a Raspberry Pi running Python to read and process joystick inputs, an Arduino Uno utilizing Blue Robotics electronic speed controllers (ESCs) (for thruster control). 
 
 We simply used the PyGame library to read inputs from a joystick that is connected via USB. We chose to the ESCs in order to allow for more precise control and simple control of the thrusters. 
@@ -140,6 +149,7 @@ This is the following flowchart for the control system:
 Caption: The flowchart for the control system.
 
 **Other**
+
 This is the following systems interconnection diagram for the overall system:
 
 <img src = "images/robotics_rop_sid.png?raw=true"/>
@@ -147,6 +157,7 @@ This is the following systems interconnection diagram for the overall system:
 Caption: The systems interconnection diagram.
 
 **Safety**
+
 For safety we decided to use the following safety procedures for the operation of the ROV:
 - Ensure there are no sharp objects on or near the ROV
 - Make sure that there are no conductible, semi-conductible objects or fluids in, on, or near the ROV
@@ -163,6 +174,7 @@ For safety we decided to use the following safety procedures for the operation o
 - Check to make sure everyone is clear of the tether as the ROV is put in the water
 
 **Competition**
+
 In the competition we did not place as the top team (in the New England competition we had to place first to advance to the worldwide MATE competition), however the judges recognzied our team's communication and design when we were in the pool.
 
 ### Reflections
