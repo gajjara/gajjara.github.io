@@ -41,6 +41,8 @@ Digitally we utilized a low pass filter to further mitigate high frequency noise
 
 Caption: A screenshot showing the MATLAB code we wrote for digital filtering.
 
+This code is also on my <a href = "https://github.com/gajjara/CircuitsAndSignalsFinal/">github</a>.
+
 ### The Result
 After analog filtering its clear that we were able to obtain a more coherent ECG signal, however, the analog filtering does show that further filtering is needed; which will be conducted digitally.
 
