@@ -1,4 +1,8 @@
-## Circuits and Signals Final Project
+## Circuits and Signals Final Project: ECG Filtering and Detection
+
+<img src = "images/circuits_header.png?raw=true"> 
+
+Caption: a detected heartbeat from an ECG signal.
 
 ### Goal
 Develop a set of analog and digital filters to mitigate noise in an ECG signal and detect a heartbeat in an ECG signal.
