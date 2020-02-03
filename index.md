@@ -4,62 +4,51 @@
 
 ### Contents
 
+- [Rapid 3D Medical Imaging Reconstruction](/3d_image)
 - [Generate Product Development: SmartyPill Project](/smarty_pill)
 - [Optical Science Laboratory: Collagen Molecule Orientation](/collagen)
-- [Circuits and Signals Final Project](/circuits_final)
+- [Embedded Design Final Project: Wiimote Control of Robotic Arm](/embedded_design)
+- [Circuits and Signals Final Project: ECG Filtering and Detection](/circuits_final)
 - [Testing Cleaning Device Effectiveness](/cleaning_device)
-- [Rapid 3D Medical Imaging Reconstruction](/3d_image)
-- [MagicMirror: Personal Daily Ticker](/magicmirror)
-- [Embedded Design Final Project](/embedded_design)
-- [XCharge](/xcharge)
+- [XCharge: Self-Charging Game Controller](/xcharge)
 - [FIRST and Underwater Robotics: Final Year](/robotics)
-- [Project Title](/sample_page)
-
-
 
 ---
 
 ### Projects
 
+---
+[Rapid 3D Medical Imaging Reconstruction](/3d_image)
+<img src="images/3d_thumbnail.png?raw=true"/>
+
+---
 [Generate Product Development: SmartyPill Project](/smarty_pill)
 <img src="images/smarty_pill_sample_design.png?raw=true"/>
 
 ---
 [Optical Science Laboratory: Collagen Molecule Orientation](/collagen)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Circuits and Signals Final Project](/circuits_final)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Testing Cleaning Device Effectiveness](/cleaning_device)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Rapid 3D Medical Imaging Reconstruction](/3d_image)
-
-<img src="images/3d_thumbnail.png?raw=true"/>
-
----
-[MagicMirror: Personal Daily Ticker](/magicmirror)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/collagen_result_simple_CNN.png?raw=true"/>
 
 ---
 [Embedded Design Final Project](/embedded_design)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/embedded_header.png?raw=true"/>
+
+---
+[Circuits and Signals Final Project](/circuits_final)
+<img src="images/circuits_header.png?raw=true"/>
+
+---
+[Testing Cleaning Device Effectiveness](/cleaning_device)
+<img src="images/cleaning_toi_cleanboi.png?raw=true"/>
 
 ---
 [XCharge](/xcharge)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/xcharge_header.png?raw=true"/>
 
 ---
 [FIRST Robotics and Underwater Robotics: Final Year](/robotics)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/robotics_header.png
+?raw=true"/>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
