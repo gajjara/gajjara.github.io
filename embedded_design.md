@@ -1,4 +1,8 @@
-## Embedded Design Final Project
+## Embedded Design Final Project: Controlling Wiimote Robotic Arm
+
+<img src = "images/embedded_header.png?raw=true"/>
+
+Caption: A Wiimote controlling the robotic arm.
 
 **Goal:** To control a robotic arm (consisting of servos) via a Wiimote through a ZedBoard, an embedded device.
 
