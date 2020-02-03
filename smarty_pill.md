@@ -47,6 +47,7 @@ While we were able to design the PCB, due to time constraints with the PCB fabri
 Caption: A video showing the functionality of the power management design.
 
 After the project came to an end, the PCBs were fabricated.
+
 <img src = "images/smarty_pill_pcbs.JPG?raw=true"/>
 Caption: The fabricated PCB.
 
@@ -79,11 +80,11 @@ Caption: The README file we wrote for the firmware libary.
 
 Credit goes to the computer and electrical engineers on the Fall 2019 SmartyPill team.
 
-### User Interface Prototype 
+<font style="font-size:0px"> ### User Interface Prototype 
 
 Note to self: decide to show later.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/dummy_thumbnail.jpg?raw=true"/> </font>
 
 ### Reflections
 
