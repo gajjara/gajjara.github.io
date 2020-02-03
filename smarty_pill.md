@@ -3,6 +3,7 @@
 <img src="images/smarty_pill_sample_design.png?raw=true"/>
 Caption: An example final implementation of the automatic pill dispenser.
 
+
 **Goal:** Develop a prototype of an automatic and adaptive pill dispensing mechanism.
 
 **Back Story:**
