@@ -29,11 +29,11 @@
 <img src="images/collagen_result_simple_CNN.png?raw=true"/>
 
 ---
-[Embedded Design Final Project](/embedded_design)
+[Embedded Design Final Project: Wiimote Control of Robotic Arm](/embedded_design)
 <img src="images/embedded_header.png?raw=true"/>
 
 ---
-[Circuits and Signals Final Project](/circuits_final)
+[Circuits and Signals Final Project: ECG Filtering and Detection](/circuits_final)
 <img src="images/circuits_header.png?raw=true"/>
 
 ---
@@ -41,7 +41,7 @@
 <img src="images/cleaning_toi_cleanboi.png?raw=true"/>
 
 ---
-[XCharge](/xcharge)
+[XCharge: Self-Charging Game Controller](/xcharge)
 <img src="images/xcharge_header.png?raw=true"/>
 
 ---
@@ -49,5 +49,5 @@
 <img src="images/robotics_header.jpg?raw=true"/>
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+<p style="font-size:10px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
