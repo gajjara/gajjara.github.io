@@ -1,5 +1,11 @@
 ## Generate Product Development: Smarty Pill
 
+<figure>
+    <img src="/images/smarty_pill_sample_design.png">
+    <figcaption>An example final implementation of the automatic pill dispenser.</figcaption>
+</figure>
+
+
 <img src="images/smarty_pill_sample_design.png?raw=true"/>
 Caption: An example final implementation of the automatic pill dispenser.
 
