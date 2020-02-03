@@ -1,4 +1,4 @@
-## Embedded Design Final Project: Controlling Wiimote Robotic Arm
+## Embedded Design Final Project: Wiimote Control of Robotic Arm
 
 <img src = "images/embedded_header.png?raw=true"/>
 
