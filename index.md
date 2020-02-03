@@ -17,7 +17,7 @@
 
 ### Projects
 
----
+___
 [Rapid 3D Medical Imaging Reconstruction](/3d_image)
 <img src="images/3d_thumbnail.png?raw=true"/>
 
@@ -47,8 +47,7 @@
 
 ---
 [FIRST Robotics and Underwater Robotics: Final Year](/robotics)
-<img src="images/robotics_header.png
-?raw=true"/>
+<img src="images/robotics_header.jpg?raw=true"/>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
