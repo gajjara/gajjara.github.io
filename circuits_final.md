@@ -6,7 +6,7 @@ Develop a set of analog and digital filters to mitigate noise in an ECG signal a
 Credit goes to the Circuits and Signals teaching faculty of the Fall 2019 semester at Northeastern University, and my lab partner for the class.
 
 ### The Design
-As commonly known, an ECG signal can be used to measure a person's heartbeat. In an ECG signal there is the QRS complex, which represents the timing of contractions in the left and right sides of the heart <a href="https://en.wikipedia.org/wiki/QRS_complex/"> (Source)</a>. This QRS complex can be represented by a set of three peaks, as shown by the image below:
+As commonly known, an ECG signal can be used to measure a person's heartbeat. In an ECG signal there is the QRS complex, which represents the timing of contractions in the left and right sides of the heart <a href="https://en.wikipedia.org/wiki/QRS_complex/"> (source)</a>. This QRS complex can be represented by a set of three peaks, as shown by the image below:
 
 <img src = "images/circuits_ecg_ideal.png?raw=true"/>
 
