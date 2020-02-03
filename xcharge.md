@@ -1,4 +1,8 @@
-## XCharge
+## XCharge: Self-Charging Game Controller
+
+<img src = "images/xcharge_header.png?raw=true">
+
+Caption: An Xbox controller.
 
 **Problem:** 
 Due to increasing energy demands and an increasing need for renewable energy, the concept of microenergy generation has come up. Here we explore the idea of microenergy generation (microenergy as in energy generation from everyday items) in the gaming industry; as a sizeable amount of energy is used due to the computing and user experience requirements.
