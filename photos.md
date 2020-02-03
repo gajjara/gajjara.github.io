@@ -50,7 +50,7 @@ Caption: Bustling group of tourists in a cathedral in Prague, Czech Republic.
 
 Caption: An overlooking view of Prague (Czech Republic).
 
-<img src="images/Image16.jpg?raw=true"/>
+<img src="images/image16.jpg?raw=true"/>
 
 Caption: A market in Baroda, India in full swing.
 
