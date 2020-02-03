@@ -80,11 +80,9 @@ Caption: The README file we wrote for the firmware libary.
 
 Credit goes to the computer and electrical engineers on the Fall 2019 SmartyPill team.
 
-<font style="font-size:0px"> ### User Interface Prototype 
+<div style="display:none;"> ### User Interface Prototype 
 
-Note to self: decide to show later.
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/> </font>
+Note to self: decide to show later. <img src="images/dummy_thumbnail.jpg?raw=true"/> </div>
 
 ### Reflections
 
