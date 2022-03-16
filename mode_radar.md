@@ -1,20 +1,20 @@
 # MODE Radar System
 
-![](img/Capstone%20Final%20Presentation0.png)
+![Alt text](img/Capstone%20Final%20Presentation0.png)
 
-# Design Problem:
+## Design Problem
 
 Many popular unmanned vehicles rely heavily or solely on optical sensors for room navigation and mapping in disaster search & rescue scenarios\. The effectiveness of the optical sensors on these vehicles can be inhibited by smoke and dust\.
 
-![](img/Capstone%20Final%20Presentation1.png)
+![Alt tex](img/Capstone%20Final%20Presentation1.png)
 
-![](img/Capstone%20Final%20Presentation2.png)
+![Alt text](img/Capstone%20Final%20Presentation2.png)
 
-https://www\.enr\.com/articles/42484\-what\-local\-officials\-want\-to\-do\-about\-wood\-frame\-building\-fires\-in\-massachusetts
+__https://www\.enr\.com/articles/42484\-what\-local\-officials\-want\-to\-do\-about\-wood\-frame\-building\-fires\-in\-massachusetts__
 
 __https://www\.cbsnews\.com/news/surfside\-condo\-collapse\-search\-ends/__
 
-# Solution? The MODE Radar System
+## Solution? The MODE Radar System
 
 <span style="color:#000000">60 GHZ</span>
 
@@ -22,15 +22,15 @@ __https://www\.cbsnews\.com/news/surfside\-condo\-collapse\-search\-ends/__
 
 <span style="color:#000000">CFAR</span>
 
-![](img/Capstone%20Final%20Presentation3.png)
+![Alt text](img/Capstone%20Final%20Presentation3.png)
 
-![](img/Capstone%20Final%20Presentation4.png)
+![Alt text](img/Capstone%20Final%20Presentation4.png)
 
 ANDROS Wolverine
 
 <span style="color:#000000">Murphy R\.R\. </span>  <span style="color:#000000"> _Disaster Robotics\._ </span>  <span style="color:#000000"> MIT Press; Cambridge\, MA\, USA: 2014</span>
 
-# Frequency Modulated Continuous Wave Radar
+## Frequency Modulated Continuous Wave Radar
 
 * Modulated in frequency
 * Difference in frequencies\, Δf → time delay\, td
@@ -39,19 +39,19 @@ ANDROS Wolverine
 * d = c \* td / 2
   * c = 3E8 m/s is the speed of light in vacuum
 
-![](img/Capstone%20Final%20Presentation5.png)
+![Alt text](img/Capstone%20Final%20Presentation5.png)
 
-![](img/Capstone%20Final%20Presentation6.png)
+![Alt text](img/Capstone%20Final%20Presentation6.png)
 
-# Signal Processing
+## Signal Processing
 
-![](img/Capstone%20Final%20Presentation7.png)
+![Alt text](img/Capstone%20Final%20Presentation7.png)
 
-![](img/Capstone%20Final%20Presentation8.png)
+![Alt text](img/Capstone%20Final%20Presentation8.png)
 
-# Hardware Block Diagram
+## Hardware Block Diagram
 
-![](img/Capstone%20Final%20Presentation9.png)
+![Alt text](img/Capstone%20Final%20Presentation9.png)
 
 Features:
 
@@ -63,15 +63,15 @@ Gyroscope for accurate positioning
 
 SOC pre\-flashed
 
-# Radar Overview
+## Radar Overview
 
-![](img/Capstone%20Final%20Presentation10.jpg)
+![Alt text](img/Capstone%20Final%20Presentation10.jpg)
 
-![](img/Capstone%20Final%20Presentation11.jpg)
+![Alt text](img/Capstone%20Final%20Presentation11.jpg)
 
-![](img/Capstone%20Final%20Presentation12.png)
+![Alt text](img/Capstone%20Final%20Presentation12.png)
 
-# Gimbal
+## Gimbal
 
 * Features:
 * 2 Servos
@@ -83,13 +83,13 @@ SOC pre\-flashed
 * Multiple antenna
   * increase the field of view for both azimuth \(90°\) and elevation \(30°\)
 
-![](img/Capstone%20Final%20Presentation13.png)
+![Alt text](img/Capstone%20Final%20Presentation13.png)
 
-# Kinematics
+## Kinematics
 
-![](img/Capstone%20Final%20Presentation14.png)
+![Alt text](img/Capstone%20Final%20Presentation14.png)
 
-# Software - Overview
+## Software - Overview
 
 | Requirement | Approach | Result |
 | :-: | :-: | :-: |
@@ -99,15 +99,15 @@ SOC pre\-flashed
 | Visualization<br />Cannot be resource intensive | OpenGL<br />Relatively fast runtime | Non-blocking and can run at data rate of 30FPS |
 | Integration<br />Must have non-blocking threads and processes | Multiprocessing<br />Low CPU use and easier to poll for data | Low CPU use (2-3%) for data processing and gimbal control*<br /><br />*on Intel MacOS |
 
-# Software - Data Receiving/Processing
+## Software - Data Receiving/Processing
 
 From radar SOC: list of detected objects
 
-![](img/Capstone%20Final%20Presentation15.png)
+![Alt text](img/Capstone%20Final%20Presentation15.png)
 
-# Software - Gimbal Control
+## Software - Gimbal Control
 
-![](img/Capstone%20Final%20Presentation16.png)
+![Alt text](img/Capstone%20Final%20Presentation16.png)
 
 Gimbal Control
 
@@ -115,7 +115,7 @@ Inputs the angles to the servos
 
 Transfer data from gyroscope to the PC
 
-![](img/Capstone%20Final%20Presentation17.png)
+![Alt text](img/Capstone%20Final%20Presentation17.png)
 
 Gimbal Control
 
@@ -123,11 +123,11 @@ Controls the servos
 
 Transfer data from gyroscope to the PC
 
-# Software - Visualization
+## Software - Visualization
 
 OpenGL Visualization:
 
-![](img/Capstone%20Final%20Presentation18.png)
+![Alt text](img/Capstone%20Final%20Presentation18.png)
 
 3D Plot Keyboard inputs:
 
@@ -143,27 +143,27 @@ Semicolon and Apostrophe \- translates the voxels on the y\-axis so the user can
 
 Antenna Center Point
 
-# Software - Main Program 2D
+## Software - Main Program 2D
 
-![](img/Capstone%20Final%20Presentation19.png)
+![Alt text](img/Capstone%20Final%20Presentation19.png)
 
-![](img/Capstone%20Final%20Presentation20.png)
+![Alt text](img/Capstone%20Final%20Presentation20.png)
 
-![](img/Capstone%20Final%20Presentation21.png)
+![Alt text](img/Capstone%20Final%20Presentation21.png)
 
-![](img/Capstone%20Final%20Presentation22.gif)
+![Alt text](img/Capstone%20Final%20Presentation22.gif)
 
-![](img/Capstone%20Final%20Presentation23.gif)
+![Alt text](img/Capstone%20Final%20Presentation23.gif)
 
-![](img/Capstone%20Final%20Presentation24.png)
+![Alt text](img/Capstone%20Final%20Presentation24.png)
 
-![](img/Capstone%20Final%20Presentation25.jpg)
+![Alt text](img/Capstone%20Final%20Presentation25.jpg)
 
-![](img/Capstone%20Final%20Presentation26.png)
+![Alt text](img/Capstone%20Final%20Presentation26.png)
 
 Antenna Center Point
 
-# Software - Visualization
+## Software - Visualization
 
 Enter servo angles
 
@@ -171,9 +171,9 @@ Reset to initial position
 
 Have a complete scan
 
-![](img/Capstone%20Final%20Presentation27.png)
+![Alt text](img/Capstone%20Final%20Presentation27.png)
 
-# Budget
+## Budget
 
 | Item | Cost | Quantity | Total |
 | :-: | :-: | :-: | :-: |
@@ -188,7 +188,7 @@ Have a complete scan
 |  |  | Total Cost: | $250.21 |
 | R&D Cost: $411.97 |  | Estimated Bulk Cost: | $150.12 |
 
-# MODE Radar Rev 2
+## MODE Radar Rev 2
 
 * Increase Range
 * Increase accuracy
@@ -197,13 +197,12 @@ Have a complete scan
 * Use of compiled software instead of interpreted software
   * And optimized resource use
 
-![](img/Capstone%20Final%20Presentation28.jpg)
+![Alt text](img/Capstone%20Final%20Presentation28.jpg)
 
-![](img/Capstone%20Final%20Presentation29.png)
+![Alt text](img/Capstone%20Final%20Presentation29.png)
 
-![](img/Capstone%20Final%20Presentation30.jpg)
+![Alt text](img/Capstone%20Final%20Presentation30.jpg)
 
-# Acknowledgements
+## Acknowledgements
 
 Thank you to Professor Dimarzio for all his help throughout the design process
-

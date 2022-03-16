@@ -20,7 +20,7 @@ Insert description
 ## Projects
 
 [Capstone Project: MODE Radar](/mode_radar)
-<img src="images/logo.png?raw=true"/>
+<img src="img/Capstone Final Presentation3.png?raw=true"/>
 
 ---
 
