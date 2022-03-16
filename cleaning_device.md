@@ -1,4 +1,4 @@
-## Testing Cleaning Device Effectiveness
+# Testing Cleaning Device Effectiveness
 
 <img src = "images/cleaning_toi_cleanboi.png?raw=true"/>
 
@@ -10,9 +10,9 @@ Caption: An image generated from the technique my professor and I devised.
 
 **Summary:** With help and guidance from my professor, I was able to devise a process that was successfully able to show quantitatively that the student group made a cleaning device that was effective.
 
-### The Technique
+## The Technique
 
-Transport of Intensity is a technique that essentially uses images at least three different focuses and determines the amplitude and phase from those images. The image below demontsrates that idea.
+Transport of Intensity is a technique that essentially uses images at least three different focuses and determines the amplitude and phase from those images. The image below demonstrates that idea.
 
 <img src = "images/cleaning_toi_idea.jpg?raw=true"/>
 
@@ -38,7 +38,7 @@ Caption: the basic setup of the TOI imaging we did.
 
 For what we needed to do, I setup the following system, where a spherical light source was shined onto the retainer, through a blackout fixture that only allowed retainer light to pass, and a camera behind the retainer holder/blackout fixture. To get the three different focuses, I simply adjusted the camera focus at a length before, at, and behind the retainer.
 
-### The Results
+## The Results
 
 These images show three images of an untouched retainer:
 

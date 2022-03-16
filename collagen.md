@@ -1,3 +1,5 @@
-## Optical Science Laboratory: Collagen Molecule Orientation
+# Optical Science Laboratory: Collagen Molecule Orientation
 
-<iframe src="pdf/076501_1.pdf" style="position: relative; height: 1000%; width: 100%;"></iframe>
+Below is the paper published on how we determined the orientation of collagen molecules through machine learning and optical simulations.
+
+<iframe src="pdf/076501_1.pdf" style="width: 100%; height: 100%; border: none;"></iframe>

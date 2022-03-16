@@ -1,10 +1,10 @@
-## XCharge: Self-Charging Game Controller
+# XCharge: Self-Charging Game Controller
 
 <img src = "images/xcharge_header.png?raw=true">
 
 Caption: An Xbox controller.
 
-**Problem:** 
+**Problem:**
 Due to increasing energy demands and an increasing need for renewable energy, the concept of microenergy generation has come up. Here we explore the idea of microenergy generation (microenergy as in energy generation from everyday items) in the gaming industry; as a sizeable amount of energy is used due to the computing and user experience requirements.
 
 **Goal:**
@@ -18,7 +18,7 @@ Credit goes to my project partners Benjamin Frothingham, Orjan Jathun, and Natal
 **Summary:**
 Due to the lack of charge potential within the piezoelectrics and peltier tiles, the battery in an XBox battery is charged by a very little amount of energy. However we were successfully able to prove that there is a potential for piezoelectrics and peltier tiles to be used in a game controller to charge itself, as were able to assemble the controller with the additional elements, and did not significantly affect user experience.
 
-### Background
+## Background
 
 Since peizoelectrics are materials that generate charge when stress is applied to them, as there is a displacement of charge. We can utilize this effect within the button, joystick, and triggers of a game controller, as these events can place stress on a piezoelectric.
 
@@ -28,11 +28,12 @@ The peltier effect is an effect that when there is a temperature gradient across
 
 Caption: Visualizations of the piezoelectric and peltier effect.
 
-### Our Design
+## Our Design
 
 Utilizing an Xbox controller as a prototype, we went about designing the ways to use piezoelectrics and peltier tiles for charging the Xbox battery.
 
 For the design we had the following considerations:
+
 - The utilization of peiezoelectrics under the controllers main control buttons, its two joysticks, and its two main triggers
 - The utilization of peltier tiles under the two palm grips of the controller, as there is where most of the heat is centered on the controller (as a user places their palms here)
 - Simple circuitry for the regulation of output voltage from the piezoelectrics and peltier tiles
@@ -60,10 +61,11 @@ Caption: A simulation of the potential stresses a peizoelectric would receive in
 We wanted to regulate the voltage from the piezoelectrics and peltier tiles as this allowed a 'smoother' voltage signal to charge the Xbox controller battery
 
 I devised the following circuit for each peltier tile and piezoelectric. This circuit takes the AC signals from the piezoelectrics and peltier tiles and converts them into a mostly regulated DC voltage to charge the Xbox controller battery.
-In the circuit diagram consists a: 
-- The low pass filter removes high frequency noise and smoothes the AC voltage
-- The diodes conver the AC signal into a DC signal
-- The voltage divider allows for voltage division (we later removed this element of the circuit as generated signfignatly less voltage than expected)
+In the circuit diagram consists a:
+
+- The low pass filter removes high frequency noise and smooths the AC voltage
+- The diodes convert the AC signal into a DC signal
+- The voltage divider allows for voltage division (we later removed this element of the circuit as generated significantly less voltage than expected)
 - A voltage regulator IC for further voltage regulation
 
 <img src = "/images/xcharge_elec_design.png?raw=true"/>
@@ -72,10 +74,12 @@ Caption: A simple electrical circuit for output voltage regulation from a peltie
 
 We chose the resistance and capacitance values in the process of building the circuits as we wanted to adjust these values for the output voltages of the piezoelectrics and peltier tiles in the actual use of the controller.
 
-### Predicting Energy Output
+## Predicting Energy Output
+
 The next step for us was to collect data to get an estimate the energy output we would get from the piezoelectrics and peltier tiles.
 
-We first conducted data connection on the RMS voltage and current outputs of the piezoelectric and peltier tile, the testing process was the following
+We first conducted data connection on the RMS voltage and current outputs of the piezoelectric and peltier tile, the testing process was the following:
+
 - Test piezoelectrics by tapping
 - Test peltier tiles by placing them on a heated bed of a 3-D printer
 - Use multimeter to estimate the RMS voltage and current
@@ -96,7 +100,7 @@ Using a Raspberry Pi with the evdev Python library, I was able to store a text f
 
 Caption: the text file generated from reading events from the Xbox controller.
 
-I then conducted some text processing in Java to count the total amount of button, joystick, and trigger events (that showed a reasonable amount of displacement for energy generation). 
+I then conducted some text processing in Java to count the total amount of button, joystick, and trigger events (that showed a reasonable amount of displacement for energy generation).
 
 The image below is a flow chart of the overall data collection process:
 
@@ -116,8 +120,10 @@ While this data is not necessarily completely reflective of gameplay, this data 
 
 Thus for our final design we went with the placement of piezoelectrics under the four main control buttons. We did not pursue a design for the D-pad buttons as there were no available piezoelectrics that could adjust to the size of the D-pad buttons.
 
-### The Build and Final Design
+## The Build and Final Design
+
 Our final design consisted of the following
+
 - Peizoelectrics located under the main control buttons (lettered buttons)
 - Peltier tiles in the handles w/ holes drilled for airflow access
 - Protoboards for holding voltage regulation circuitry
@@ -133,7 +139,8 @@ The following images shows our build process:
 
 Caption: Photos demonstrating our build.
 
-**Delay Data Collection**
+### Delay Data Collection**
+
 One of the potential issues that we found with the additional of piezoelectrics, peltier tiles, and circuitry is that the button, trigger, and joystick events could be delayed. Using the same data collection process as above, but instead manually comparing the timings between the "on" and "off" events of button, trigger, and joystick events, we found the following results for delay:
 
 <img src = "/images/xcharge_delay.png?raw=true"/>
@@ -142,17 +149,19 @@ Caption: The results of the data collected on estimating delay from addition of 
 
 This data showed to us that we added some amount of delay (but not a significant amount) to the controller, and since delay is not desired in gaming, this shows us that if our use of piezoelectrics and peltiers could generate a significant amount of energy, then the controller would have to be redesigned to account for the mechanical effects of peiezoelctrics and to add space for piezoelectrics and peltier tiles (and the circuitry that may come along with them).
 
-**Constraints/Problems**
-- Material generates very little charge 
+### Constraints/Problems**
+
+- Material generates very little charge
 - Space within the controller to work with
 - Negative effect on user experience
 - Piezoelectric mechanics not built for the triggers and joysticks
 
-**Future Improvements**
+### Future Improvements
+
 - Utilization of additional piezoelectric placement
 - Utilization of PCBs for electrical organization and low space usage
 - Flexible or custom designed peltier tiles
-- Redesign for controller to include spacing for peltiers and piezoelectrics 
+- Redesign for controller to include spacing for peltiers and piezoelectrics
 - Allow the design to be ready for manufacturing
 
 **Reflection**

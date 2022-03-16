@@ -1,4 +1,4 @@
-## Embedded Design Final Project: Wiimote Control of Robotic Arm
+# Embedded Design Final Project: Wiimote Control of Robotic Arm
 
 <img src = "images/embedded_header.png?raw=true"/>
 
@@ -15,10 +15,12 @@ The code for this portion of this project is on my
 
 Credit goes to the Embedded Design teaching faculty of the Fall 2019 semester at Northeastern University.
 
-### The Logic Design
+## The Logic Design
+
 In this project, we used logic design to control the robotic arm using PWM signals via the GPIO of the ZedBoard. The purpose of this logic was the following:
+
 - Give accessible inputs for C++ programming (this is already allowed by the prog)
-- Allow C++ programming to contorl the motors
+- Allow C++ programming to control the motors
 - Control the motors servo angle
 - Control the motors speed
 - Integrate motor angle and speed control
@@ -27,7 +29,7 @@ Note that the robotic arm consisted of five servos on a: base, arm, joint, wrist
 
 This logic was designed through MATLAB's Simulink.
 
-The first step was to design the logic circuit for the angle to PWM conversion. This logic circuit would translate a given angle (i.e 45 degrees) and set it to the correct corresponding period for a PWM signal. Earlier in the semester, as an assignment, I figured out the correct calculation to converting the angle to the PWM signal. The PWM period = 50us * Angle + 3000us (this is the period in which the PWM signal is "on" or 1) over a total PWM period of 20000us. 
+The first step was to design the logic circuit for the angle to PWM conversion. This logic circuit would translate a given angle (i.e 45 degrees) and set it to the correct corresponding period for a PWM signal. Earlier in the semester, as an assignment, I figured out the correct calculation to converting the angle to the PWM signal. The PWM period = 50us * Angle + 3000us (this is the period in which the PWM signal is "on" or 1) over a total PWM period of 20000us.
 
 The following image shows the circuit design I made for PWM angle control:
 
@@ -51,7 +53,7 @@ Caption: The simulation for a 90 degrees PWM pulse, an "on" period of 750*10^-5 
 
 Caption: The simulation for a 180 degrees PWM pulse, an "on" period of 1200*10^-5 seconds is expected.
 
-Since the simulations correctly verified the design, the next step was to design the cirucit for speed control. 
+Since the simulations correctly verified the design, the next step was to design the circuit for speed control.
 
 <img src = "/images/embedded_speed_control.png?raw=true"/>
 
@@ -111,7 +113,8 @@ This logic was then programmed into the FPGA of the ZedBoard.
 
 The next was step was to utilize C++ programming to allow the Wiimote to control robotic arm servos.
 
-### The C++ Programming
+## The C++ Programming
+
 The first step was to create a connection link between the Wiimote and a Bluetooth receiver connected to the ZedBoard.
 This was done through a shell script that initialized the connection, and setup the memory location to read Wiimote acceleration events.
 The goal was to use the Wiimote acceleration (or movement) to control the base servo, while the Wiimote buttons are used to control the four other servos.
@@ -122,7 +125,7 @@ Then the C++ structure was setup to read and process the Wiimote button and acce
 - WiimoteBtns.cpp: Reads and processes wiimote events and sets the desired speed and angle values
 - RoboticArm.cpp: Controls the inputs sent to the registers that hold the inputs to the logic design that controls the servos
 
-### The Result
+## The Result
 
 The following video shows the final result:
 

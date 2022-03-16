@@ -1,15 +1,17 @@
-## Circuits and Signals Final Project: ECG Filtering and Detection
+# Circuits and Signals Final Project: ECG Filtering and Detection
 
-<img src = "images/circuits_header.png?raw=true"> 
+<img src = "images/circuits_header.png?raw=true">
 
 Caption: a detected heartbeat from an ECG signal.
 
-### Goal
+## Goal
+
 Develop a set of analog and digital filters to mitigate noise in an ECG signal and detect a heartbeat in an ECG signal.
 
 Credit goes to the Circuits and Signals teaching faculty of the Fall 2019 semester at Northeastern University, and my lab partner for the class.
 
-### The Design
+## The Design
+
 As commonly known, an ECG signal can be used to measure a person's heartbeat. In an ECG signal there is the QRS complex, which represents the timing of contractions in the left and right sides of the heart <a href="https://en.wikipedia.org/wiki/QRS_complex/"> (source)</a>. This QRS complex can be represented by a set of three peaks, as shown by the image below:
 
 <img src = "images/circuits_ecg_ideal.png?raw=true"/>
@@ -31,7 +33,7 @@ and a bandpass filter (that mitigated DC and high frequency noise). The image be
 
 <img src = "images/circuits_diagram.png?raw=true"/>
 
-Caption: The analog circuit we designed. 
+Caption: The analog circuit we designed.
 
 This image shows the above circuit implemented on a breadboard:
 
@@ -47,7 +49,8 @@ Caption: A screenshot showing the MATLAB code we wrote for digital filtering.
 
 This code is also on my <a href = "https://github.com/gajjara/CircuitsAndSignalsFinal/">github</a>.
 
-### The Result
+## The Result
+
 After analog filtering its clear that we were able to obtain a more coherent ECG signal, however, the analog filtering does show that further filtering is needed; which will be conducted digitally.
 
 <img src = "images/circuits_filtered_ecg,png.png"/>
@@ -68,8 +71,8 @@ Caption: The ECG signal after being filtered through a set of notch filters to r
 
 After filtering, we were able to obtain a more coherent ECG signal, and we simply used a Fourier transform and identified the frequency with the highest intensity to identify the heartbeat.
 
-With the ECG signal above, we were able to detect a heartbeat of 111 beats per minute; which is consistent with the ECG signal as in the sample of 10 seconds there are 17 beats (thus 102 beats per minute). 
+With the ECG signal above, we were able to detect a heartbeat of 111 beats per minute; which is consistent with the ECG signal as in the sample of 10 seconds there are 17 beats (thus 102 beats per minute).
 
-Thus we were able to utilize analog and digital filtering techniques to detect a heartbeat from an ECG signal. 
+Thus we were able to utilize analog and digital filtering techniques to detect a heartbeat from an ECG signal.
 
 Again credit goes to the teaching faculty for this course in Fall 2019, and my lab partner.

@@ -1,9 +1,9 @@
-## Informal Photography Portfolio
+# Informal Photography Portfolio
 
-**Description:** This is my informal portfolio displaying some of my photography work. 
-Here I display some of what I consider my best photos from the states, Europe, India, and Chile. 
+**Description:** This is my informal portfolio displaying some of my photography work.
+Here I display some of what I consider my best photos from the states, Europe, India, and Chile.
 
-### The Photos
+## The Photos
 
 <img src="images/Image1.jpg?raw=true"/>
 
@@ -11,7 +11,7 @@ Caption: Graffiti all over street walls on one of the many hills in Valparaiso, 
 
 <img src="images/Image2.jpg?raw=true"/>
 
-Caption: Image I took from my phone of Micheal League, lead composer of Snarky Puppy, 
+Caption: Image I took from my phone of Micheal League, lead composer of Snarky Puppy,
 during a concert in Boston.
 
 <img src="images/Image3.jpg?raw=true"/>

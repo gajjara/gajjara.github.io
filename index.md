@@ -1,13 +1,12 @@
-## My Portfolio
+# My Portfolio
 
 Insert description
 
 ---
 
-### Contents
+## Contents
 
 - [Capstone Project: MODE Radar](/mode_radar)
-- [Boston Engineering: Electrical Engineering Product Development Co-Op](/boston_engineering.md)
 - [Optical Science Laboratory: Collagen Molecule Orientation](/collagen)
 - [Optical Science Laboratory: Testing Cleaning Device Effectiveness](/cleaning_device)
 - [Generate Product Development: DeepCharge](/deep_charge)
@@ -18,14 +17,9 @@ Insert description
 
 ---
 
-### Projects
+## Projects
 
 [Capstone Project: MODE Radar](/mode_radar)
-<img src="images/logo.png?raw=true"/>
-
----
-
-[Boston Engineering: Electrical Engineering Product Development Co-Op](/boston_engineering.md)
 <img src="images/logo.png?raw=true"/>
 
 ---
@@ -41,7 +35,7 @@ Insert description
 ---
 
 [Generate Product Development: DeepCharge Project](/deep_charge)
-<img src="images/logo.png?raw=true"/>
+<img src="images/deepcharge_header.png?raw=true"/>
 
 ---
 
