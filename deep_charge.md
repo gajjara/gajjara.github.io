@@ -28,10 +28,10 @@ Credit goes to the Spring 2020 DeepCharge Team of Generate Product Development.
 **5 Minute Video:**
 
 <video controls>
-  <source src="images/embedded_operation.mp4" type="video/mp4">
+  <source src="images/DeepCharge Showcase Video.mov" type="video/mov">
   Your browser does not support the video tag.
 </video>
 
 **Project Final Report:**
 
-<iframe src="pdf/DeepCharge_Final_Report.pdf" style="position: relative; height: 1000%; width: 100%;"></iframe>
+<iframe src="pdf/DeepCharge_Final_Report.pdf#zoom=FitH" style="width: 100%; height: 100%; border: none;"></iframe>
