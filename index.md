@@ -1,12 +1,13 @@
-# My Portfolio
+# Portfolio
 
-Insert description
+Hello! I'm Anuj! I'm currently a graduating senior at Northeastern University where I'm majoring in Computer and Electrical Engineering and minoring in Computer Science.
+
+This is my portfolio of several different projects I've done as a student, you'll see some research projects I've done at the Optical Science Lab at Northeastern, some product development projects at Generate Product Development (also at Northeastern), and some projects from courses. Thanks for taking your time to read my portfolio!
 
 ---
 
 ## Contents
 
-- [Capstone Project: MODE Radar](/mode_radar)
 - [Optical Science Laboratory: Collagen Molecule Orientation](/collagen)
 - [Optical Science Laboratory: Testing Cleaning Device Effectiveness](/cleaning_device)
 - [Generate Product Development: DeepCharge](/deep_charge)
@@ -18,11 +19,6 @@ Insert description
 ---
 
 ## Projects
-
-[Capstone Project: MODE Radar](/mode_radar)
-<img src="img/Capstone Final Presentation3.png?raw=true"/>
-
----
 
 [Optical Science Laboratory: Collagen Molecule Orientation](/collagen)
 <img src="images/collagen_result_simple_CNN.png?raw=true"/>
