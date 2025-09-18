@@ -11,7 +11,6 @@ Below are different projects I've done as a student, you'll see some research pr
 ## Contents
 
 - [Optical Science Laboratory: Collagen Molecule Orientation](/collagen)
-- [Optical Science Laboratory: Testing Cleaning Device Effectiveness](/cleaning_device)
 - [Generate Product Development: DeepCharge](/deep_charge)
 - [Generate Product Development: SmartyPill](/smarty_pill)
 - [Embedded Design Final Project: Wiimote Control of Robotic Arm](/embedded_design)
@@ -24,11 +23,6 @@ Below are different projects I've done as a student, you'll see some research pr
 
 [Optical Science Laboratory: Collagen Molecule Orientation](/collagen)
 <img src="images/collagen_result_simple_CNN.png?raw=true"/>
-
----
-
-[Optical Science Laboratory: Testing Cleaning Device Effectiveness](/cleaning_device)
-<img src="images/cleaning_toi_cleanboi.png?raw=true"/>
 
 ---
 
@@ -47,10 +41,6 @@ Below are different projects I've done as a student, you'll see some research pr
 ---
 [Circuits and Signals Final Project: ECG Filtering and Detection](/circuits_final)
 <img src="images/circuits_header.png?raw=true"/>
-
----
-[1st Year Cornerstone Project: XCharge](/xcharge)
-<img src="images/xcharge_header.png?raw=true"/>
 
 ---
 
