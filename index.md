@@ -1,8 +1,10 @@
 # Portfolio
 
-Hello! I'm Anuj! I'm currently a graduating senior at Northeastern University where I'm majoring in Computer and Electrical Engineering and minoring in Computer Science.
+Hello! I'm Anuj!
 
-This is my portfolio of several different projects I've done as a student, you'll see some research projects I've done at the Optical Science Lab at Northeastern, some product development projects at Generate Product Development (also at Northeastern), and some projects from courses. Thanks for taking your time to read my portfolio!
+I'm currently an Embedded Software Engineer at the MITRE corporation. I studied Computer and Electrical Engineering at Northeastern University.
+
+Below are different projects I've done as a student, you'll see some research projects I've done at the Optical Science Lab at Northeastern, some product development projects at Generate Product Development (also at Northeastern), and some projects from courses. 
 
 ---
 
