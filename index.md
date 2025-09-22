@@ -2,7 +2,7 @@
 
 Hello! I'm Anuj!
 
-I'm currently an Embedded Software Engineer at the MITRE corporation. I studied Computer and Electrical Engineering at Northeastern University.
+I’m an embedded software engineer with experience building real-time, multi-threaded systems in C++ and Python. At MITRE, I developed a configurable GNSS/GPS receiver for the NTS-3 satellite program and worked on next-gen GPS technologies. My background also includes research in medical imaging and sensor systems, with published work on an implantable cancer sensor and optical imaging. I hold a B.S. in Electrical and Computer Engineering from Northeastern and enjoy building systems that blend hardware, software, and signal processing.
 
 Below are different projects I've done as a student, you'll see some research projects I've done at the Optical Science Lab at Northeastern, some product development projects at Generate Product Development (also at Northeastern), and some projects from courses. 
 
